@@ -92,7 +92,7 @@ export default MiniReact;
 ```js
 // index.js
 /** @jsx MiniReact.createElement */
-import MiniReact from '../utils/react.js';
+import MiniReact from './react.js';
 
 window.onload = function () {
   const element = MiniReact.createElement(
